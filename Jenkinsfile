@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Hello') {
             steps {
-                echo 'Halo, Praktikum Komputasi Awan Berhasil!'
+                echo 'Halo, Trigger Webhook Ngrok Berhasil!'
             }
         }
     }
