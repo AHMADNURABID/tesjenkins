@@ -1,16 +1,5 @@
 pipeline {
     agent any
-    stages {
-        stage('Hello') {
-            steps {
-                echo 'Halo, Trigger Webhook Ngrok Berhasil!'
-            }
-        }
-    }
-}
-
-pipeline {
-    agent any
     environment {
         IMAGE_NAME = 'ahmadnurabid/simple-app'
         REGISTRY = 'https://index.docker.io/v1/'
